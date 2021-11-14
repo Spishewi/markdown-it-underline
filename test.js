@@ -7,10 +7,10 @@ const tests = [
   { in: '**strong**', exp: '<strong>strong</strong>' },
   { in: '***strong emphasis***',
     exp: '<strong><em>strong emphasis</em></strong>' },
-  { in: '_underline_', exp: '<u>underline</u>' },
+  { in: '_underline_', exp: '<span class="underline">underline</span>' },
   { in: '__strong__', exp: '<strong>strong</strong>' },
   { in: '___strong underline___',
-    exp: '<strong><u>strong underline</u></strong>' },
+    exp: '<strong><span class="underline">strong underline</span></strong>' },
 ];
 
 
