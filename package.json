@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-underline",
   "version": "1.0.2",
-  "description": "Renders _underline_ to <span class=\"underline\">underline</u>",
+  "description": "Renders _underline_ to <span class=\"underline\">underline</span>",
   "main": "index.js",
   "scripts": {
     "preversion": "npm test",
