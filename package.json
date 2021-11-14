@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-underline",
-  "version": "1.0.1",
-  "description": "Renders _underline_ to <u>underline</u>",
+  "version": "1.0.2",
+  "description": "Renders _underline_ to <span class=\"underline\">underline</u>",
   "main": "index.js",
   "scripts": {
     "preversion": "npm test",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arve0/markdown-it-underline.git"
+    "url": "git+https://github.com/spishewi/markdown-it-underline.git"
   },
   "keywords": [
     "underline",
@@ -19,12 +19,12 @@
     "markdown-it-plugin",
     "commonmark"
   ],
-  "author": "Arve Seljebu",
+  "author": "Spishewi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/arve0/markdown-it-underline/issues"
   },
-  "homepage": "https://github.com/arve0/markdown-it-underline#readme",
+  "homepage": "https://github.com/spishewi/markdown-it-underline#readme",
   "devDependencies": {
     "markdown-it": "^8.1.0",
     "power-assert": "^1.4.2"
